@@ -1,7 +1,7 @@
 {
-  "name": "gallery",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "A photo gallery web app",
+  "description": "backend for react app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
