@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-import db from "./server.mjs";
+const db = require("./server.js");
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
